@@ -5,79 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LOGIN FORM</title>
-    <style>
-        body{
-            background-color: green;
-        }
-        .box{
-            background-color: white;
-            color: black;
-            height: 400px;
-            width: 500px;
-            /* margin-left: 300px;
-            margin-top: 300px; */
-            margin: auto;
-            margin-top: 200px;
-            padding: 30px;
-            /* align-content: center; */
-            padding-right: 63px;
 
-        }
-        a{
-            color: green;
-        }
-        .green{
-            background-color: green;
-            margin-left: 150px;
-            width: 240px;
-            height: 40px;
-            color: white;
-            font-size: bold;
-        }
-        h2{
-            text-align: center;
-        }
-        .center{
-            text-align: center;
-            margin-left: 30px;
-        }
-        #lusername{
-            /* align-content: center; */
-            /* justify-content: center; */
-            margin-left:150px;
-            width: 230px;
-            height: 40px;
-            background-color: darkgray;
-
-        }
-        #lpassword{
-            margin-left: 150px;
-            width: 230px;
-            height: 40px;
-            background-color: darkgray;
-        }
-        .not{
-            display: inline-block;
-            /* margin-left */
-            margin-left: 150px
-            
-            
-        }
-        .out{
-            display: inline-block;
-        }
-
-    </style>
+    <link rel="stylesheet" href="style.css">
+    
 </head>
 <body>
     <div class="box">
         <h2>LOGIN</h2>
         <p class="center">Please enter your credentials to login</p>
-        <label for="luname"></label>
-        <input type="username" id="lusername" placeholder="user name"><br><br>
-        <label for="lpassword"></label>
-        <input type="password" id="lpassword" placeholder="password"><br><br>
-        <button type="button" class="green" value="login">login</button><br>
+       
+       <div> <input type="username" class="top" placeholder="user name"></div>
+        
+        <div><input type="password" class="top" placeholder="password"></div>
+        <div>
+        <button type="button" class="green" value="login">login</button></div>
         <p class="not">Not registered?</p>
         <a href="#" class="out"><p class="out">Create an account</p></a>
     </div>
