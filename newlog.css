@@ -1,0 +1,145 @@
+
+body{
+    background-color: antiquewhite;
+}
+.box{
+    display: flex;
+}
+.box1{
+    background-color: white;
+    height: 600px;
+    width: 600px;
+    border: none;
+    margin-left: 130px;
+    margin-top: 70px;
+    
+
+}
+.box2{
+    background-color: red;
+    height: 600px;
+    width: 600px;
+    border: none;
+    margin-top: 70px;
+    
+}
+h2{
+    color: white;
+    
+}
+.html{
+    text-align: center;
+    margin-top: 188px;
+}
+.form{
+    text-align: center;
+}
+.one{
+    margin-left: 162px;
+
+}
+.two{
+    margin-left: 181px;
+
+}
+.three{
+    margin-left: 219px;
+
+}
+p{
+    color: white;
+}
+.header{
+    font-size:35px;
+    text-align: center;
+    margin-top: 40px;
+    
+    font-family: monospace;
+}
+.img{
+    height: 30px;
+    /* margin-top: 50px;
+    margin-left: 50px; */
+    margin: 0;
+     padding: 0;
+    margin-top: 38px;
+     margin-left: 262px;
+         margin-right: 16px;
+}
+.img2{
+    height: 30px;
+    /* margin-top: 50px;
+    margin-left: 50px; */
+    margin: 0;
+    padding: 0;
+    margin-top: 38px;
+}
+.div{
+    display: flex;
+    /* justify-content:space-evenly; */
+    /* white-space:none; */
+}
+.use{
+    /* margin-left: 50px; */
+    margin-top: 67px;
+    margin-left: 233px;
+    color: grey;
+    margin-bottom: 5px;
+}
+
+.email{   
+     height: 28px;
+width: 232px;
+margin-left: 180px;
+/* margin-right: 25px; */
+/* height: 26px; */
+/* width: 170px; */
+/* margin-left: 161px; */
+/* height: 26px; */
+/* width: 232px; */
+background-color: lightgrey;
+border: none;
+
+
+}
+    
+
+
+.password{
+
+    /* margin-top: 15px;
+    margin-left: 191px; */
+    margin-top: 15px;
+margin-left: 180px;
+height: 26px;
+width: 232px;
+background-color: lightgrey;
+border: none;
+
+}
+.input{
+    /* margin-top: 10px;
+     margin-left: 191p */
+     
+
+}
+.input2{
+
+}
+.fg{
+    margin-top: 20px;
+    margin-left: 225px;
+    color: gray;
+}
+.submit{
+    /* margin-top: 26px;
+    margin-left: 229px; */
+    margin-top: 26px;
+       margin-left: 236px;
+      background-color: red;
+    width: 115px;
+  border: none;
+   border-radius: 23px;
+  height: 34px;
+  color: white;
+}
